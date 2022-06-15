@@ -2,19 +2,12 @@ import java.util.Scanner;
 
 public class hotel {
       
-      int D, A, N, total;
+      int D = 10; 
+      int A = 10; 
+      int N = 100; 
+      int total;
       
     public static void main(String args[]) {
-      System in = new Scanner(System.in);
-
-      System.out.println("Insira o valor da diária: ");
-      D = in.nextInt();
-      
-      System.out.println("Insira o valor de aumento da diaria: ");
-      A = in.nextInt();
-      
-      System.out.println("Insira o dia da chegada no hotel: ");
-      N = in.nextInt();
       
       int promocao(int promo){
         if(N >= 16){
