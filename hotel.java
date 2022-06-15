@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class hotel {
       
-      int D = 100, A = 10, N = 1, total;
+      int D, A, N, total;
       
     public static void main(String args[]) {
       System in = new Scanner(System.in);
